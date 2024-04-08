@@ -6,6 +6,7 @@ specifiers:
   autoprefixer: ^10.4.19
   daisyui: ^4.10.1
   pinia: ^2.1.7
+  pinia-plugin-persistedstate: ^3.2.1
   postcss: ^8.4.38
   tailwindcss: ^3.4.3
   typescript: ^5.2.2
@@ -16,6 +17,7 @@ specifiers:
 dependencies:
   '@vueuse/core': 10.9.0_vue@3.4.21
   pinia: 2.1.7_d4z7wpcibcsttkr7sk4ndlazym
+  pinia-plugin-persistedstate: 3.2.1_pinia@2.1.7
   vue: 3.4.21_typescript@5.4.4
 
 devDependencies:
@@ -1121,6 +1123,14 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /pinia-plugin-persistedstate/3.2.1_pinia@2.1.7:
+    resolution: {integrity: sha512-MK++8LRUsGF7r45PjBFES82ISnPzyO6IZx3CH5vyPseFLZCk1g2kgx6l/nW8pEBKxxd4do0P6bJw+mUSZIEZUQ==}
+    peerDependencies:
+      pinia: ^2.0.0
+    dependencies:
+      pinia: 2.1.7_d4z7wpcibcsttkr7sk4ndlazym
+    dev: false
 
   /pinia/2.1.7_d4z7wpcibcsttkr7sk4ndlazym:
     resolution: {integrity: sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==}
